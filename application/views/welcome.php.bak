@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selamat Datang di Osisku</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" >
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="<?php echo base_url('public/css/welcome.css') ?>">
+	<script src="<?php echo base_url('public/js/countdown.js') ?>"></script>
+
+</head>
+<body>
+	<header>
+		<div class="center row col-md-10">
+			<div class="judul col-md-6 nomar nopad">
+				<h3 class="nomar">Osisku Voting System</h3>
+			</div>
+			<div class="nav col-md-6 nopad">
+				<ul class="nomar nopad">
+					<li><a href="User/Login" class="btn btn-success">Login</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div
+		 class="center row col-md-10">
+			<div class="image">
+				<img src="<?php echo base_url('public/image/main/osis.png') ?>" alt="">
+			</div>
+			<div class="judul">
+				<h1>Osisku Voting System</h1>
+			</div>
+			<div class="desc col-md-6 nopad">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ullam incidunt nihil autem animi, qui commodi dolores blanditiis delectus sunt explicabo quod sapiente officiis in ratione sequi. Alias, illo voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non rem debitis neque possimus reiciendis distinctio quisquam expedita laborum alias illum ex minima voluptatem harum vero atque nam commodi, eos sint!</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="wadah-countdown">
+		<div class="center row col-md-10">
+			<div class="judul">
+				<h1>Batas Waktu Voting</h1>
+			</div>
+			<div class="countdown-main">	
+				<div class="countdown-box  col-md-6 row nopad">
+					<div class="col-sm-3 countdown-time" >
+						<h1 id="countdown-hari">**</h1>
+						<h3>Hari</h3>
+					</div>
+					<div class="col-sm-3 countdown-time" >
+						<h1 id="countdown-jam">**</h1>
+						<h3>Jam</h3>
+					</div>
+					<div class="col-sm-3 countdown-time">
+						<h1 id="countdown-menit">**</h1>
+						<h3>Menit</h3>
+					</div>
+					<div class="col-sm-3 countdown-time">
+						<h1 id="countdown-detik">**</h1>
+						<h3>Detik</h3>
+					</div>
+				<div class="col-md-12  countdown-time" id="timeout">
+						<h1 class="nomar">Waktu Voting Telah Berakhir</h1>
+					</div>
+				</div>
+			</div>
+			<div class="countdown-tanggal">
+				<h2> Menuju : "13 April 2018"</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="about">
+		<div class="center row col-md-10">
+			<div class="judul">
+				<h1>Tentang Aplikasi</h1>
+			</div>
+			<div class="col-about col-md-4">
+				<div class="box">
+					<div class="image">
+						<img src="<?php echo base_url('public/image/main/profil-kandidat.png') ?>" alt="">	
+					</div>	
+					<div class="desc">
+						<h3>Lihat Profil Para Kandidat</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-about col-md-4">
+				<div class="box">
+					<div class="image">
+						<img src="<?php echo base_url('public/image/main/pilih-kandidat.png') ?>" alt="">	
+					</div>	
+					<div class="desc">
+						<h3>Pilih Kandidat Yang Terbaik</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-about col-md-4">
+				<div class="box">
+					<div class="image">
+						<img src="<?php echo base_url('public/image/main/statistik-pemilihan.png') ?>" alt="">	
+					</div>	
+					<div class="desc">
+						<h3>Lihat Statistik Pemilihan</h3>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<small>Copyright &copy <a href="">Fame1302</a> 2018</small>	
+	</footer>
+
+	
+</body>
+</html>

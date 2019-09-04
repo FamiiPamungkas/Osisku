@@ -1,0 +1,171 @@
+body{
+	background:#0D5C63;
+}
+
+*{
+	/*font-family: 'Ubuntu' !important;*/
+	/*color: #78CDD7;*/
+	/*text-B5B5BA: none;*/
+}
+
+.nopad{
+	padding: 0 !important;
+}
+.nomar{
+	margin: 0 !important;
+}
+.center{
+	/*width: 75%;*/
+	margin: 0 auto;
+}
+
+header h3{
+	line-height: 50px;
+	padding: 10px;
+	
+}
+header .nav >ul >li > a:hover{
+	color: #fff;
+}
+header .nav >ul >li > a{
+	text-decoration: none;
+	color: #D6EDF8;
+	padding: 10px 20px;
+}
+header .nav >ul >li{
+	/*float: left;*/
+}
+header .nav{
+	/*float: left;*/
+}
+header .nav >ul{
+	margin: 0 auto;
+	line-height: 50px;
+	list-style: none;
+}
+section{
+	background: transparent;
+}
+section > div > .left > .icon > img{	
+	height: 100%;
+	display: block;
+	margin: 25px auto;
+	padding:10px 0;
+}
+section > div > .left > .judul{
+	text-align: center;	
+}
+section > div > .left > .desc{	
+	padding: 20px 10px;
+}
+section > div > .left > .icon{	
+	height: 120px;
+	margin: 0 auto;
+}
+section > div > .right a{
+	margin: 10px;
+	color:#44A1A0; 
+}
+section > div > .right input[type='submit']{
+	/*background: blue;*/
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 0;
+	padding: 5px 20px;
+}
+
+section > div > .right input[type='password'],
+section > div > .right input[type='text']{
+	width: 100%;
+	border: 0;
+	border-bottom: solid 2px #44A1A0;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+
+section > div > .right h3{
+	color: #000 !important;
+	padding: 10px 0;
+}
+
+section > div > .left{
+	background: #44A1A0;
+}
+section > div{
+	background: #fff;
+}
+footer .stripe{
+	background: #44A1A0;
+	width: 100px;
+	height: 3px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom:10px;
+}
+
+footer small{
+	padding: 10px;
+}
+footer{
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.error_message >p:last-child{
+	border-bottom: 0;
+
+}
+.error_message >p{
+	color: red !important;
+	margin: 0;
+	border-bottom: solid 1px red;
+	padding: 3px;
+	margin: 0 20px;
+}
+.error_message {
+	position: relative;
+	width: calc(100% - 20px);
+	color: red !important;
+	background: #F0C2C5;
+	border-radius: 5px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+div.ab-layer > div > div{
+	margin-top: 40%;
+
+}
+div.ab-layer > div{
+	position: relative;
+}
+div.ab-layer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.50);
+}
+#close-info:hover{
+	cursor: pointer;
+}
+#close-info{
+	position: absolute;
+	right: 0;
+	top:0;
+	/*padding: 5px;*/
+	margin: 10px;
+}
+@media all and (min-width: 320px) and (max-width: 780px) {
+	section{
+		margin: 0 !important;
+	}
+
+	.form-login{
+		margin: 50px auto !important;
+	}
+
+}

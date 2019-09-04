@@ -1,0 +1,29 @@
+body{
+	background: #78CDD7;
+}
+.text-title > h3{
+	line-height:100px; 
+}
+.img-title > img{
+	height: 100px;
+	padding: 20px;
+}
+.nomar{
+	margin: 0;
+}
+.input-admin > input{
+	margin-bottom: 10px;
+}
+.error-message{
+	padding: 5px 10px !important;
+
+}
+.error-message > p {
+	margin:0;
+}
+.preview {
+	text-align: center;
+}
+.preview > img{
+	width: 100%;
+}

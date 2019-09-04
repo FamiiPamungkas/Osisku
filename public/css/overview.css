@@ -1,0 +1,37 @@
+.img-container > img{
+	width: 100%;
+	
+}
+.img-container {
+	overflow: hidden;
+	margin: 10px auto;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+.total-bar h5{ 
+	position: absolute;
+	line-height: 30px;
+	right: 0;
+	top: 0;
+	padding-right: 10px;
+}
+.total-bar{
+	position: relative;
+	width: 100%;
+	background: #ddd;
+	height: 30px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.gauge-bar{
+	display: block;
+	/*width: 35%;*/
+	height: 100%;
+	/*background: #E85F5C;*/
+}
+
+h5.jml-text{
+	right:80px !important;
+}

@@ -1,0 +1,90 @@
+<body>
+
+	<section>
+		<div class="center row col-md-10">
+			<div class="image">
+				<img src="<?php echo base_url('public/img/main/osis.png') ?>" alt="">
+			</div>
+			<div class="judul">
+				<h1>Osisku Voting System</h1>
+			</div>
+			<div class="desc col-md-6 nopad">
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ullam incidunt nihil autem animi, qui commodi dolores blanditiis delectus sunt explicabo quod sapiente officiis in ratione sequi. Alias, illo voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non rem debitis neque possimus reiciendis distinctio quisquam expedita laborum alias illum ex minima voluptatem harum vero atque nam commodi, eos sint!</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="wadah-countdown">
+		<div class="center row col-md-10">
+			<div class="judul">
+				<h1>Batas Waktu Voting</h1>
+			</div>
+			<div class="countdown-main">	
+				<div class="countdown-box  col-md-6 row nopad">
+					<div class="col-sm-3 countdown-time" >
+						<h1 id="countdown-hari">**</h1>
+						<h3>Hari</h3>
+					</div>
+					<div class="col-sm-3 countdown-time" >
+						<h1 id="countdown-jam">**</h1>
+						<h3>Jam</h3>
+					</div>
+					<div class="col-sm-3 countdown-time">
+						<h1 id="countdown-menit">**</h1>
+						<h3>Menit</h3>
+					</div>
+					<div class="col-sm-3 countdown-time">
+						<h1 id="countdown-detik">**</h1>
+						<h3>Detik</h3>
+					</div>
+				<div class="col-md-12  countdown-time" id="timeout">
+						<h1 class="nomar">Waktu Voting Telah Berakhir</h1>
+					</div>
+				</div>
+			</div>
+			<div class="countdown-tanggal">
+				<h2> Menuju : "13 April 2018"</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="about">
+		<div class="center row col-md-10">
+			<div class="judul">
+				<h1>Tentang Aplikasi</h1>
+			</div>
+			<div class="col-about col-md-4">
+				<div class="box">
+					<div class="image">
+						<img src="<?php echo base_url('public/img/main/profil-kandidat.png') ?>" alt="">	
+					</div>	
+					<div class="desc">
+						<h3>Lihat Profil Para Kandidat</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-about col-md-4">
+				<div class="box">
+					<div class="image">
+						<img src="<?php echo base_url('public/img/main/pilih-kandidat.png') ?>" alt="">	
+					</div>	
+					<div class="desc">
+						<h3>Pilih Kandidat Yang Terbaik</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-about col-md-4">
+				<div class="box">
+					<div class="image">
+						<img src="<?php echo base_url('public/img/main/statistik-pemilihan.png') ?>" alt="">	
+					</div>	
+					<div class="desc">
+						<h3>Lihat Statistik Pemilihan</h3>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>

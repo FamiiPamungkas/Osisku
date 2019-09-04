@@ -1,0 +1,154 @@
+body{
+	background:#247B7B;
+}
+*{
+	font-family: 'calibri' !important;
+	/*color: #78CDD7;*/
+	/*text-B5B5BA: none;*/
+}
+.nopad{
+	padding: 0 !important;
+}
+.nomar{
+	margin: 0 !important;
+}
+.center{
+	/*width: 75%;*/
+	margin: 0 auto !important;
+}
+footer,
+header{
+	background: #0D5C63;
+
+}
+header h3{
+	line-height: 50px;
+	padding: 10px 0;
+}
+header .nav >ul >li > a:hover{
+	color: #fff;
+}
+header .nav >ul >li > a.btn{
+	border-radius: 50px;
+}
+header .nav >ul >li h6,
+header .nav >ul >li > a{
+	text-decoration: none;
+	color: #D6EDF8;
+	line-height: 30px;
+	padding: 10px 20px;
+	display: block;
+}
+header .nav >ul >li{
+	float: right;
+	margin: 10px 0;
+}
+header .nav{
+	float: right;
+}
+header .nav >ul{
+	width: 100%;
+	float: right;
+	margin: 0 auto;
+	line-height: 50px;
+	list-style: none;
+}
+
+section .desc p{
+	color: #0D5C63;
+	margin: 20px 0;	
+	text-align: justify;
+}
+section .desc{
+	margin: 0 auto;
+}
+section .judul{
+	width: 100%;
+	text-align: center;
+	color: #0D5C63;
+}
+section{
+	/*background: #44A1A0;*/
+	background: #78CDD7;
+	padding: 20px auto;
+}
+section .image img{
+	height: 100%;
+}
+section .image{
+	margin: 20px auto;
+	height: 200px;
+	display: block;
+}
+
+.about .judul,
+.wadah-countdown .judul {
+	text-align: center;
+	width: 100%;
+}
+.wadah-countdown .about >h1,
+.wadah-countdown .judul >h1{
+	float: none;
+
+}
+.countdown-box{
+	margin: 20px auto;
+	background: #272727;
+	border-radius: 20px;
+}
+.countdown-box > .countdown-time{
+	text-align: center;
+	padding: 10px;
+}
+
+.countdown-tanggal{
+	width: 100%;
+	text-align: center;
+}
+.countdown-main{
+	width: 100%;
+}
+.wadah-countdown{
+	padding: 20px;
+	background: #006666;
+}
+.about .judul{
+	color: #0D5C63;
+}
+.about .col-about >.box:first-child{
+	margin-left: 0px;
+
+}
+.about .col-about >.box > .desc{
+	text-align: center;
+	padding: 20px;
+}
+.about .col-about >.box > .image >img{
+	width: 100%;
+	padding: 20px 50px;
+	/*padding-top: 20px;*/
+}
+.about .col-about >.box{
+	margin: 20px 0;
+	margin-left: 20px;
+	color:#0D5C63; 
+	background: #fff;
+	border-radius: 20px;
+	/*background: */
+}
+.about .col-about{
+	color:#0D5C63; 
+}
+.about{
+	background: #78CDD7;
+	padding: 20px;
+}
+footer small{
+}
+footer{
+	text-align: center;
+	padding: 20px;
+}
+::-webkit-scrollbar {
+display: none;
+}

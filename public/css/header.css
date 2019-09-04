@@ -1,0 +1,139 @@
+header .judul a:hover{
+	text-decoration: none;
+	color: #fff;
+
+}
+header .judul a{
+	text-decoration: none;
+	color: #D6EDF8;
+}
+header .nav-absolute{
+	display: none;
+}
+header .mobile-nav{
+	display: none;
+}
+
+header ul>li#profile:hover > .profile-dropdown{
+	display: block;
+}
+header ul>li#profile{
+	margin: 0;
+	padding: 0 10px;
+	padding-left: 5px;
+	background: #247B7B;
+	position: relative;
+
+}
+header ul>li> .profile-pic > .image{
+	border-radius: 54px;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	margin: 10px;
+
+}
+header ul>li> .profile-pic > .image>img{
+	width: 100%;
+	/*height: 100%;*/
+	/*padding: */
+	
+}
+header ul>li> .profile-name > h6{
+	line-height: 50px;
+}
+header ul>li> .profile-name{
+	float: left;
+	margin: 10px 5px;
+
+}
+header ul>li> .profile-pic{
+	height: 70px;
+	float: left;
+}
+
+#profile > ul.profile-dropdown > li >a:hover{
+	color: #fff;
+}
+#profile > ul.profile-dropdown > li >a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #F6F4F3;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+#profile > ul.profile-dropdown > li{
+	width: 100%;
+}
+
+#profile > ul.profile-dropdown{
+	display: none;
+	position: absolute;
+	top: 70px;
+	background: inherit;
+	right: 0;
+	padding: 0;
+	z-index: 5;
+	list-style: none;
+	width: 100%;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+	.center{
+		margin: 0 !important;
+		width: 100% !important;
+	}
+	header .judul > h3{
+		font-size: 22px;
+	}
+	header .judul{
+		text-align: center;	
+		width: 100% !important;
+	}
+
+	header .nav{
+		display: none;
+	}
+	
+	header .nav-absolute> ul > li >a{
+		padding: 10px;
+		display: block;
+		color: #F6F4F3;
+	}
+	header .nav-absolute > ul > li >a:last-child{
+		margin-top: 10px;	
+	}
+	header .nav-absolute > ul{
+		list-style: none;
+	}
+	header .nav-absolute{
+		position: fixed;
+		display: none ;
+		padding: 15px;	
+		background: rgba(13,92,99,1);
+		z-index: 3;
+		top: 50px;
+	}
+	.mobile-nav > input{
+		position: absolute;
+		/*transform: scale(3);*/
+		top: 0;
+		left:0;
+		width: 30px;
+		height: 30px;
+		appearance:none;
+		margin: 20px;
+		opacity: 0;
+	}
+	.mobile-nav{
+		display: block !important;
+		position: absolute;
+		height: 70px;
+		width: 70px;
+		left: 0;
+		top:0;
+	}
+
+}
